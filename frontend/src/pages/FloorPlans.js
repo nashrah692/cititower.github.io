@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { Download, Eye, Square, Building, MapPin } from "lucide-react";
+import { Download, Eye, Square, Building, MapPin, X } from "lucide-react";
 
 const FloorPlans = () => {
   const [selectedPlan, setSelectedPlan] = useState(null);
